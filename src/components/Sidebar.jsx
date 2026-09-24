@@ -231,35 +231,6 @@ function Sidebar({ collapsed, setCollapsed, isMobile, mobileOpen, setMobileOpen 
 
           </div>
         ))}
-
-        <div className={`developer-sidebar ${effectiveCollapsed ? "collapsed" : ""}`}>
-  {!effectiveCollapsed ? (
-    <>
-      <span className="developer-sidebar-label">
-        Developed by
-      </span>
-
-      <strong>Steeve Manace</strong>
-
-      <span className="developer-sidebar-role">
-        Web Developer · Business Systems
-      </span>
-
-      <span className="developer-sidebar-copy">
-        © 2026 SellHaven
-      </span>
-    </>
-  ) : (
-    <>
-      <strong className="developer-initials">SM</strong>
-
-      <span className="developer-sidebar-copy">
-        © 2026
-      </span>
-    </>
-  )}
-</div>
-
       </div>
     </>
   );
