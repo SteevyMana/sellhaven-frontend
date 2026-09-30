@@ -296,7 +296,7 @@ function Suppliers() {
               padding: "10px 18px", borderRadius: "10px", fontWeight: "600",
               cursor: "pointer", display: "flex", alignItems: "center", gap: "6px", whiteSpace: "nowrap"
             }}>
-              <BsPlus size={18} /> New Return
+              <BsPlus size={18} /> New Supplier
             </button>
           )}
 

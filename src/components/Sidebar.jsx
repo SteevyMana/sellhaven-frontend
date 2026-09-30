@@ -37,12 +37,12 @@ function Sidebar({ collapsed, setCollapsed, isMobile, mobileOpen, setMobileOpen 
       { to: "/orders", text: "Orders", icon: <FaShoppingCart size={16} /> },
       { to: "/sales", text: "Sales / POS", icon: <FaChartLine size={16} /> },
       { to: "/payments", text: "Payments", icon: <FaCreditCard size={16} /> },
-      { to: "/returns", text: "Returns", icon: <FaUndo size={16} /> }
+      { to: "/customer-returns", text: "Customer Returns", icon: <FaUndo size={16} /> }
     ],
     purchases: [
       { to: "/suppliers", text: "Suppliers", icon: <FaTruck size={16} /> },
       { to: "/purchases", text: "Purchases", icon: <FaClipboardList size={16} /> },
-      { to: "/returns", text: "Returns", icon: <FaUndo size={16} /> }
+      { to: "/returns", text: "Supplier Returns", icon: <FaUndo size={16} /> }
     ],
     reports: [
       { to: "/reports", text: "Reports", icon: <FaFileInvoice size={16} /> }
