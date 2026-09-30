@@ -382,10 +382,10 @@ function Suppliers() {
                   <td style={tdStyle}>
                     {canManage ? (
                       <div style={{ display: "flex", gap: "8px" }}>
-                        <button onClick={() => editReturn(r)} style={{ background: "#dbeafe", color: "#1d4ed8", border: "none", borderRadius: "8px", padding: "6px 10px", cursor: "pointer", display: "flex", alignItems: "center" }}>
+                        <button onClick={() => editSupplier(s)} style={{ background: "#dbeafe", color: "#1d4ed8", border: "none", borderRadius: "8px", padding: "6px 10px", cursor: "pointer", display: "flex", alignItems: "center" }}>
                           <BsPencilSquare />
                         </button>
-                        <button onClick={() => deleteReturn(r.id)} style={{ background: "#fee2e2", color: "#b91c1c", border: "none", borderRadius: "8px", padding: "6px 10px", cursor: "pointer", display: "flex", alignItems: "center" }}>
+                        <button onClick={() => deleteSupplier(s.id)} style={{ background: "#fee2e2", color: "#b91c1c", border: "none", borderRadius: "8px", padding: "6px 10px", cursor: "pointer", display: "flex", alignItems: "center" }}>
                           <BsTrash />
                         </button>
                       </div>
